@@ -1,0 +1,30 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: trasnform .2s;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
