@@ -1,0 +1,90 @@
+@font-face { 
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+}
+body {
+    background-color: #84E1AD;
+    text-indent: 30px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: rgb(43, 151, 92);
+    background-image: linear-gradient( #7ed6a4, #1d663e);
+    color: white
+}
+nav {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+main {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+section {
+    background-color: #1d663e;
+    padding: 20px;
+}
+h1 {
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: normal;
+    color: #1d663e;
+}
+h2 {
+    font-family: 'idroid', 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-weight: normal;
+    color: #1d663e;
+    background-color: #2b975c42;
+    background-image: linear-gradient(to right, #2b975c42, white);
+}
+h3 {
+    background-color: #2FA866;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    text-align: left;
+    padding: 10px;
+}
+/* detalhes diferentes no <a>*/
+.link {
+    color: #1d663e; 
+    margin: 0;   
+}
+
+.conteudo {
+    text-align: left;
+}
+.conteudo img,
+.conteudo picture,
+.conteudo iframe {
+    display: block;
+    margin: auto;
+}
+.quadro {
+    background-color: #C5EBD6;
+    margin:0 20px 0 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 20px 20px;
+    text-indent: 30px;
+}
+.colunas {
+    column-count: 2;
+    column-gap: 40px;
+    column-rule: 1px;
+}
+footer {
+    background-color: #1d663e;
+    text-align: center;
+    color: #7ed6a4;
+}
